@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página web</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Tu hoja de estilos personalizada -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="m-0 p-0">
+  <div class="container-fluid completoContenedor min-vh-100 w-100 ">
+
+  <!-- Header -->
+  <header class="row text-center mb-4 ">
+    <div class="col">
+    <img src="img/descarga.png" alt="Logo" class="img-fluid">
+  </div>
+</header>
+
+  <!-- Body -->
+  <div class="row">
+    <div class="col">
+    
+    <div class="row">
+      <!-- Primera columna con imagen -->
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+        <img src="img/CALA-A5_nobg.png" alt="Imagen" class="img-fluid">
+        <p class=" mt-4">Turpis porta magna quis vel maecenas penatibus phasellus luctus fringilla sociis porttitor feugiat, sed mus nibh sapien parturient euismod.</p>
+      </div>
+      <!-- Segunda columna con palabras, acordeones y botón -->
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col">
+            <p class="titulo">Sierra Caladora</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="subtitulo">750 w Potencia</p>
+          </div>
+        </div>
+        <div class="row detalles text-center align-middle pt-2 mb-4">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                <p>Modelo</p>
+              </div>
+                <div class="row">
+                  <p class="textoDetalles">CALA-A5</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row">
+                <p>Código</p>
+              </div>
+                <div class="row">
+                  <p class="textoDetalles">15423</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <!-- Aquí añadirías tus acordeones -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Especificaciones técnicas
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Certificaciones y Garantias
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Qué Incluye?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary w-100 mt-4 "> <a href="docs/15423.pdf" target="_blank">Descargar Ficha técnica</a</button>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="row text-center bg-black ">
+    <div class="col p-5">
+    <p>&copy; 2023 - Nombre de tu empresa</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS y scripts adicionales -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

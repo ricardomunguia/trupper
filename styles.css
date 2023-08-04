@@ -1,0 +1,84 @@
+
+:root {
+    --colorPrincipal: #f60;
+  }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  position: fixed;
+    height:6rem;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color:white
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--colorPrincipal)
+}
+
+.subtitulo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+}
+
+.detalles{
+    background-color: rgba(255, 102, 0, 0.07);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.textoDetalles{
+    color: var(--colorPrincipal)
+}
+
+.accordion-button{
+    background-color:  var(--colorPrincipal);
+    color: white;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:  rgba(255, 102, 0, 0.07);
+    color: black;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: black;
+    font-weight: 500;
+    border-color: rgba(255, 0, 0, 0.7) ;
+}
+
+.btn-primary a {
+    color: black;
+    font-weight: 500;
+    border-color: rgba(255, 0, 0, 0.7) ;
+    text-decoration: none;
+
+    
+}
+
+btn-primary a:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    font-weight: 500;
+    border-color: rgba(255, 0, 0, 0.7) ;
+
+    
+}
+
+.btn-primary:hover{
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    font-weight: 500;
+    border-color: rgba(255, 0, 0, 0.7) ;
+}
